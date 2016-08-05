@@ -75,6 +75,7 @@ $ ruby crcs.rb -d 0xDDA --generator 0x1D --crc 5 --display-steps
 
 # Example 4: Brute-forcing dataword collision given CRC
 ```
+// Result is sorted by the length of burst error needed to create collision
 $ ruby crcs.rb -d 0xDDA --generator 0x1D --crc 5 --display-steps --brute-force
 
 
